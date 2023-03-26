@@ -9,6 +9,19 @@
 1. search for github
 1. Publish to Github
 
+### Poetry for venv
+1. [Youtube - Poetry](https://www.youtube.com/watch?v=0f3moPe_bhk)
+1. To Install
+    1. pip install poetry
+    1. pip3 install --upgrade pip
+    1. poetry init
+1. Recreate environment
+    1. poetry config virtualenvs.in-project true
+    1. poetry install
+    1. Add/Remove
+        1. poetry add (package name)
+        1. poetry remove (package name)
+1. List active venv : poetry env list
 
 # OpenAI API Quickstart - Python example app
 
