@@ -3,7 +3,7 @@
 ## Links
 [OpenAI Quickstart](https://platform.openai.com/docs/quickstart/build-your-application)
 
-## Instructions
+## Instructions for laptop
 ### Create repo from VSCode
 1. shift+command+P
 1. search for github
@@ -22,6 +22,22 @@
         1. poetry add (package name)
         1. poetry remove (package name)
 1. List active venv : poetry env list
+
+### Template for .env file
+1. Create .env in .venv, to ensure you **do not inadvertantly upload your API KEY**
+```
+export FLASK_APP=app
+export FLASK_ENV=development
+
+# Once you add your API key below, make sure to not share it with anyone! The API key should remain private.
+export OPENAI_API_KEY=
+```
+
+### Run on laptop
+1. cd .venv
+1. . ./.env
+1. env (to check)
+1. flask run
 
 # OpenAI API Quickstart - Python example app
 
